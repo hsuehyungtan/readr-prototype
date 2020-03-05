@@ -1,0 +1,10 @@
+.home {
+  padding-top: 38px;
+  background-color: rgba(0, 0, 0, 0.87);
+  &__heading {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,32 @@
+.home-report {
+  padding: 15px 0 44px;
+  color: #fff;
+  a {
+    display: block;
+  }
+  &__image {
+    position: relative;
+    width: 100%;
+    padding-top: 42.25%;
+    margin-top: 16px;
+    background-color: rgba(0, 0, 0, 0.75);
+    & + .home-report__link {
+      margin-top: 11px;
+    }
+    img {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: calc(100% - 70px);
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  &__link {
+    padding: 10px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+}

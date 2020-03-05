@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  width: calc(100% -20px);
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.87);
+  &__link {
+    flex: 1;
+    display: block;
+    height: 38px;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 38px;
+  }
+}

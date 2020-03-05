@@ -1,0 +1,20 @@
+.alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 500;
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.73;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #000000;
+  &__icon {
+    width: 52px;
+    height: 52px;
+    margin-top: 21px;
+  }
+}
